@@ -19,7 +19,7 @@
 		<!-- Header -->
 		<header>
 			<div class="logo">
-				<img src="" alt="imagen-logo">
+				<h2>Vaccination</h2>
 			</div>
 			<nav class="navbar">
 				<ul>
@@ -52,40 +52,80 @@
 						infected</p>
 				</div>
 				<div class="emojis">
-					<img src="" alt="emoji-proteccion">
+					<img src="/assets/icons/secure.png" alt="emoji-proteccion">
 					<p>Best Protection</p>
-					<img src="" alt="emoji-star">
+					<img src="/assets/icons/star.png" alt="emoji-star">
 					<p>Selected Vaccines</p>
 				</div>
 			</section>
 			<section class="enfermera-image">
-				<img src="" alt="enfermera-img">
+				<img src="/assets/img/enfermera.png" alt="enfermera-img">
 			</section>
 			<div class="scheduler">
+				<div class="scheduler-title">
+					<img src="/assets/icons/time.png" alt="clock">
+				</div>
 				<label for="location">
-					<input type="">
+					<img src="/assets/icons/map.png" alt="location">
+					Location
 				</label>
-				<label for="date">
-					<input type="date">
-				</label>
+				<select name="location" id="location">
+					<option value="ags">Aguascalientes</option>
+					<option value="bc">Baja California</option>
+					<option value="bcs">Baja California Sur</option>
+					<option value="camp">Campeche</option>
+					<option value="coah">Coahuila</option>
+					<option value="col">Colima</option>
+					<option value="chis">Chiapas</option>
+					<option value="chih">Chihuahua</option>
+					<option value="df">CDMX</option>
+					<option value="dgo">Durango</option>
+					<option value="gto">Guanajuato</option>
+					<option value="gro">Guerrero</option>
+					<option value="hgo">Hidalgo</option>
+					<option value="jal">Jalisco</option>
+					<option value="edomex">Edo. de Mex.</option>
+					<option value="mich">Michoacán</option>
+					<option value="mor">Morelos</option>
+					<option value="nay">Nayarit</option>
+					<option value="nl">Nuevo León</option>
+					<option value="oax">Oaxaca</option>
+					<option value="pue">Puebla</option>
+					<option value="qro">Querétaro</option>
+					<option value="qr">Quintana Roo</option>
+					<option value="slp">San Luis Potosí</option>
+					<option value="sin">Sinaloa</option>
+					<option value="son">Sonora</option>
+					<option value="tab">Tabasco</option>
+					<option value="tams">Tamaulipas</option>
+					<option value="tlax">Tlaxcala</option>
+					<option value="ver">Veracruz</option>
+					<option value="yuc">Yucatán</option>
+					<option value="zac">Zacatecas</option>
+				</select>
+				<label for="date">Date</label>
+				<input type="date">
 				<label for="type">
-					<input type="type">
+					<img src="/assets/icons/syringe.png" alt="syringe">
+					Vaccine Type
 				</label>
-				<label for="submit">
-					<input type="submit">
-				</label>
+				<select name="vaccine-type" id="vaccine-type">
+					<option value="ast">Astra Zeneca</option>
+					<option value="sin">Sinovac</option>
+					<option value="pfi">Pfizer</option>
+					<option value="mod">Moderna</option>
+				</select>
+				<input type="submit">
 			</div>
 		</main>
 
 		<!-- Logos -->
 
 		<section class="logos-vaccines">
-			<img src="" alt="astra">
-			<img src="" alt="sinovac">
-			<img src="" alt="pfizer">
-			<img src="" alt="moderna">
-			<div class="logo-covers">
-			</div>
+			<img src="/assets/img/astra.png" alt="astra">
+			<img src="/assets/img/sinovac.png" alt="sinovac">
+			<img src="/assets/img/pfizer.png" alt="pfizer">
+			<img src="/assets/img/moderna.png" alt="moderna">
 		</section>
 
 		<!-- Vaccine reason -->
@@ -98,22 +138,22 @@
 			</div>
 			<div class="reason-cards">
 				<div class="reason-card">
-					<img src="" alt="puntitos">
+					<img src="/assets/icons/settings.png" alt="puntitos">
 					<h3>Minimize the spread of viruses</h3>
 					<p>Vaccine has been proven effective to prevent someone from getting infected with Coronavirus</p>
 				</div>
 				<div class="reason-card">
-					<img src="" alt="assurance">
+					<img src="/assets/icons/secure-blue.png" alt="assurance">
 					<h3>Forming antibodies</h3>
 					<p>COVID-19 vaccine proven to help shape antibody response for immune system</p>
 				</div>
 				<div class="reason-card">
-					<img src="" alt="family">
+					<img src="/assets/icons/group.png" alt="family">
 					<h3>Protecting people nearby</h3>
 					<p>The benefits of COVID-19 vaccination are the vaccine that we get can also help protect people around us</p>
 				</div>
 				<div class="reason-card">
-					<img src="" alt="grafiquita">
+					<img src="/assets/icons/graph.png" alt="grafiquita">
 					<h3>Creating group immunity </h3>
 					<p>COVID-19 vaccination is also benefical for creating group immunity or herd immunity</p>
 				</div>
@@ -124,7 +164,7 @@
 
 		<section class="preparations">
 			<div class="preparation-img">
-				<img src="" alt="referal-person">
+				<img src="/assets/img/enfermera-2.png" alt="referal-person">
 			</div>
 			<div class="section-text">
 				<h1>Preparations Before Vaccine</h1>
@@ -133,9 +173,9 @@
 				<div class="dropdowns">
 					<div class="dropdown">
 						<nav>
-							<img src="" alt="" class="dropdown-logo">
+							<img src="/assets/icons/shield-cross.png" alt="" class="dropdown-logo">
 							<span>Avoid alcoholic beverages</span>
-							<img src="" alt="dropdown-arrow">
+							<img src="/assets/icons/downarrow.png" alt="dropdown-arrow">
 						</nav>
 						<p>
 							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae earum ipsum consequatur, exercitationem
@@ -145,9 +185,9 @@
 					<div class="dropdown">
 						<div class="dropdown">
 							<nav>
-								<img src="" alt="" class="dropdown-logo">
+								<img src="/assets/icons/shield-cross.png" alt="" class="dropdown-logo">
 								<span>Avoid stress</span>
-								<img src="" alt="dropdown-arrow">
+								<img src="/assets/icons/downarrow.png" alt="dropdown-arrow">
 							</nav>
 							<p>
 								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae earum ipsum consequatur, exercitationem
@@ -158,9 +198,9 @@
 					<div class="dropdown">
 						<div class="dropdown">
 							<nav>
-								<img src="" alt="" class="dropdown-logo">
+								<img src="/assets/icons/bar-graph.png" alt="" class="dropdown-logo">
 								<span>Eat healthy food</span>
-								<img src="" alt="dropdown-arrow">
+								<img src="/assets/icons/downarrow.png" alt="dropdown-arrow">
 							</nav>
 							<p>
 								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae earum ipsum consequatur, exercitationem
@@ -171,9 +211,9 @@
 					<div class="dropdown">
 						<div class="dropdown">
 							<nav>
-								<img src="" alt="" class="dropdown-logo">
+								<img src="/assets/icons/square-check.png" alt="" class="dropdown-logo">
 								<span>Get enough sleep</span>
-								<img src="" alt="dropdown-arrow">
+								<img src="/assets/icons/downarrow.png" alt="dropdown-arrow">
 							</nav>
 							<p>
 								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae earum ipsum consequatur, exercitationem
@@ -184,9 +224,9 @@
 					<div class="dropdown">
 						<div class="dropdown">
 							<nav>
-								<img src="" alt="" class="dropdown-logo">
+								<img src="/assets/icons/heart.png" alt="heart" class="dropdown-logo">
 								<span>Exercise or physical activity</span>
-								<img src="" alt="dropdown-arrow">
+								<img src="/assets/icons/downarrow.png" alt="dropdown-arrow">
 							</nav>
 							<p>
 								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae earum ipsum consequatur, exercitationem
@@ -211,7 +251,7 @@
 					<ul>
 						<li class="emergency-item">
 							<div class="emergency-card-header">
-								<img src="" alt="phone">
+								<img src="/assets/icons/viber.png" alt="phone">
 								<p>Call <br>
 									<span>021.123.145.14</span>
 								</p>
@@ -222,7 +262,7 @@
 						</li>
 						<li class="emergency-item">
 							<div class="emergency-card-header">
-								<img src="" alt="chat">
+								<img src="/assets/icons/chat.png" alt="chat">
 								<p>Chat <br>
 									<span>021.123.145.14</span>
 								</p>
@@ -233,7 +273,7 @@
 						</li>
 						<li class="emergency-item">
 							<div class="emergency-card-header">
-								<img src="" alt="camera">
+								<img src="/assets/icons/video-camera.png" alt="camera">
 								<p>Video Call <br>
 									<span>021.123.145.14</span>
 								</p>
@@ -244,7 +284,7 @@
 						</li>
 						<li class="emergency-item">
 							<div class="emergency-card-header">
-								<img src="" alt="message">
+								<img src="/assets/icons/email.png" alt="message">
 								<p>Message <br>
 									<span>021.123.145.14</span>
 								</p>
@@ -277,21 +317,21 @@
 				<div class="columns">
 					<ul class="navigation-columns">
 						<li><strong>About</strong></li>
-						<li><a href=""></a></li>
-						<li><a href=""></a></li>
-						<li><a href=""></a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">News & Blog</a></li>
 					</ul>
 					<ul class="navigation-columns">
 						<li><strong>Company</strong></li>
-						<li><a href=""></a></li>
-						<li><a href=""></a></li>
-						<li><a href=""></a></li>
+						<li><a href="#">How We Work?</a></li>
+						<li><a href="#">Capital</a></li>
+						<li><a href="#">Security</a></li>
 					</ul>
 					<ul class="navigation-columns">
 						<li><strong>Support</strong></li>
-						<li><a href=""></a></li>
-						<li><a href=""></a></li>
-						<li><a href=""></a></li>
+						<li><a href="#">FAQs</a></li>
+						<li><a href="#"></a>Support Center</li>
+						<li><a href="#"></a>Contact Us</li>
 					</ul>
 				</div>
 				<div class="terms-privacy">
@@ -301,6 +341,7 @@
 			</div>
 		</footer>
 
+		<script src="https://kit.fontawesome.com/452449b734.js" crossorigin="anonymous"></script>
 	</body>
 
 </html>
