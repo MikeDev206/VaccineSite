@@ -199,17 +199,40 @@ header {
 
 /* logos section */
 
-
-.container,
 .logos-section {
 	width: 100%;
-	margin: 4em auto;
+	margin: 7em auto;
 }
-
 
 .logos-container {
 	max-width: 1600px;
+	align-items: baseline;
 }
 
+/* vaccines reason section */
 
+.vaccines-reason-section {
+	width: 100%;
+}
 
+.vaccines-reason-container {
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0 2em;
+	margin: 2em auto;
+}
+
+.reason-cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.reason-cards .reason-card img {
+	width: 50px;
+	height: 50px;
+}
