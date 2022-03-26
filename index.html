@@ -48,77 +48,80 @@
 		<!-- Hero Content -->
 
 		<main class="hero-section">
-			<section class="section-text">
-				<div class="text">
-					<h1>Fight Virus With Vaccines</h1>
-					<p>Let's Stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get
-						infected</p>
+			<div class="row hero-container">
+				<section class="col-sm-12 col-md-6 section-text">
+					<div class="text">
+						<h1>Fight Virus 
+							With Vaccines</h1>
+						<p>Let's Stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get
+							infected</p>
+					</div>
+					<div class="emojis">
+						<img src="/assets/icons/secure.png" alt="emoji-proteccion">
+						<p>Best Protection</p>
+						<img src="/assets/icons/star.png" alt="emoji-star">
+						<p>Selected Vaccines</p>
+					</div>
+				</section>
+				<section class="col-sm-12 col-md-6 enfermera-image">
+					<img src="/assets/img/enfermera.png" alt="enfermera-img">
+				</section>
+				<div class="scheduler">
+					<div class="scheduler-title">
+						<img src="/assets/icons/time.png" alt="clock">
+					</div>
+					<label for="location">
+						<img src="/assets/icons/map.png" alt="location">
+						Location
+					</label>
+					<select name="location" id="location">
+						<option value="ags">Aguascalientes</option>
+						<option value="bc">Baja California</option>
+						<option value="bcs">Baja California Sur</option>
+						<option value="camp">Campeche</option>
+						<option value="coah">Coahuila</option>
+						<option value="col">Colima</option>
+						<option value="chis">Chiapas</option>
+						<option value="chih">Chihuahua</option>
+						<option value="df">CDMX</option>
+						<option value="dgo">Durango</option>
+						<option value="gto">Guanajuato</option>
+						<option value="gro">Guerrero</option>
+						<option value="hgo">Hidalgo</option>
+						<option value="jal">Jalisco</option>
+						<option value="edomex">Edo. de Mex.</option>
+						<option value="mich">Michoacán</option>
+						<option value="mor">Morelos</option>
+						<option value="nay">Nayarit</option>
+						<option value="nl">Nuevo León</option>
+						<option value="oax">Oaxaca</option>
+						<option value="pue">Puebla</option>
+						<option value="qro">Querétaro</option>
+						<option value="qr">Quintana Roo</option>
+						<option value="slp">San Luis Potosí</option>
+						<option value="sin">Sinaloa</option>
+						<option value="son">Sonora</option>
+						<option value="tab">Tabasco</option>
+						<option value="tams">Tamaulipas</option>
+						<option value="tlax">Tlaxcala</option>
+						<option value="ver">Veracruz</option>
+						<option value="yuc">Yucatán</option>
+						<option value="zac">Zacatecas</option>
+					</select>
+					<label for="date">Date</label>
+					<input type="date">
+					<label for="type">
+						<img src="/assets/icons/syringe.png" alt="syringe">
+						Vaccine Type
+					</label>
+					<select name="vaccine-type" id="vaccine-type">
+						<option value="ast">Astra Zeneca</option>
+						<option value="sin">Sinovac</option>
+						<option value="pfi">Pfizer</option>
+						<option value="mod">Moderna</option>
+					</select>
+					<input type="submit">
 				</div>
-				<div class="emojis">
-					<img src="/assets/icons/secure.png" alt="emoji-proteccion">
-					<p>Best Protection</p>
-					<img src="/assets/icons/star.png" alt="emoji-star">
-					<p>Selected Vaccines</p>
-				</div>
-			</section>
-			<section class="enfermera-image">
-				<img src="/assets/img/enfermera.png" alt="enfermera-img">
-			</section>
-			<div class="scheduler">
-				<div class="scheduler-title">
-					<img src="/assets/icons/time.png" alt="clock">
-				</div>
-				<label for="location">
-					<img src="/assets/icons/map.png" alt="location">
-					Location
-				</label>
-				<select name="location" id="location">
-					<option value="ags">Aguascalientes</option>
-					<option value="bc">Baja California</option>
-					<option value="bcs">Baja California Sur</option>
-					<option value="camp">Campeche</option>
-					<option value="coah">Coahuila</option>
-					<option value="col">Colima</option>
-					<option value="chis">Chiapas</option>
-					<option value="chih">Chihuahua</option>
-					<option value="df">CDMX</option>
-					<option value="dgo">Durango</option>
-					<option value="gto">Guanajuato</option>
-					<option value="gro">Guerrero</option>
-					<option value="hgo">Hidalgo</option>
-					<option value="jal">Jalisco</option>
-					<option value="edomex">Edo. de Mex.</option>
-					<option value="mich">Michoacán</option>
-					<option value="mor">Morelos</option>
-					<option value="nay">Nayarit</option>
-					<option value="nl">Nuevo León</option>
-					<option value="oax">Oaxaca</option>
-					<option value="pue">Puebla</option>
-					<option value="qro">Querétaro</option>
-					<option value="qr">Quintana Roo</option>
-					<option value="slp">San Luis Potosí</option>
-					<option value="sin">Sinaloa</option>
-					<option value="son">Sonora</option>
-					<option value="tab">Tabasco</option>
-					<option value="tams">Tamaulipas</option>
-					<option value="tlax">Tlaxcala</option>
-					<option value="ver">Veracruz</option>
-					<option value="yuc">Yucatán</option>
-					<option value="zac">Zacatecas</option>
-				</select>
-				<label for="date">Date</label>
-				<input type="date">
-				<label for="type">
-					<img src="/assets/icons/syringe.png" alt="syringe">
-					Vaccine Type
-				</label>
-				<select name="vaccine-type" id="vaccine-type">
-					<option value="ast">Astra Zeneca</option>
-					<option value="sin">Sinovac</option>
-					<option value="pfi">Pfizer</option>
-					<option value="mod">Moderna</option>
-				</select>
-				<input type="submit">
 			</div>
 		</main>
 

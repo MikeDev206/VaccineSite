@@ -61,3 +61,58 @@ header {
 .navbar ul li:last-child a {
 	color: #fff;
 }
+
+/* main section */
+
+.hero-section {
+	width: 100%;
+}
+
+.hero-container {
+	max-width: 1600px;
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	width: 40%;
+}
+
+.section-text .text {
+	padding: 4em 4em 3.5em 4em;
+	margin: 2em auto 0 auto;
+}
+
+.text h1 {
+	font-size: 58px;
+	color: #1f3e72;
+	font-weight: 900;
+}
+
+.text p {
+	margin: 2em auto 0 auto;
+	color: #6d7b93;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.emojis {
+	display: flex;
+	justify-content: space-between;
+}
+
+.emojis p {
+	margin: 0 2em;
+	color: #1f3e72;
+	font-weight: 900;
+}
+
+.emojis img {
+	height: 20px;
+	width: 20px;
+}
