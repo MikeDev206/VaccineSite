@@ -14,6 +14,38 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	height: 100vh;
+}
+
+.section-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 4em 2em 3.5em 2em;
+	margin: 2em auto 0 auto;
+	width: 40%;
+	position: relative;
+	z-index: 1;
+}
+
+.text h1 {
+	font-size: 58px;
+	color: #1f3e72;
+	font-weight: 900;
+}
+
+.text h2 {
+	font-size: 35px;
+	color: #1f3e72;
+	font-weight: 900;
+}
+
+.text p {
+	margin: 2em auto 0 auto;
+	color: #6d7b93;
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 1em;
 }
 
 /* header */
@@ -23,12 +55,12 @@ header {
 }
 
 .navigation {
-	padding: 2em;
+	padding: 2em 0 2em 2em;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	max-width: 1600px;
-	/* box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.6); */
+	margin: 0 auto;
 }
 
 .logo h2 {
@@ -36,29 +68,29 @@ header {
 	font-weight: 900;
 }
 
-.navbar ul {
+.navigation-bar ul {
 	display: flex;
 	margin: 0 1em;
 }
 
-.navbar ul li {
+.navigation-bar ul li {
 	list-style: none;
 	padding: 10px;
 }
 
-.navbar ul li:last-child {
+.navigation-bar ul li:last-child {
 	border: 1px solid transparent;
 	border-radius: 5px;
 	background: #3656d4;
 }
 
-.navbar ul li a {
+.navigation-bar ul li a {
 	text-decoration: none;
 	color: #6d7b93;
 	font-weight: 600;
 }
 
-.navbar ul li:last-child a {
+.navigation-bar ul li:last-child a {
 	color: #fff;
 }
 
@@ -73,34 +105,6 @@ header {
 	margin: 10px auto;
 	display: flex;
 	justify-content: space-between;
-}
-
-.section-text {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 0 auto;
-	width: 40%;
-	position: relative;
-	z-index: 1;
-}
-
-.section-text .text {
-	padding: 4em 4em 3.5em 4em;
-	margin: 2em auto 0 auto;
-}
-
-.text h1 {
-	font-size: 58px;
-	color: #1f3e72;
-	font-weight: 900;
-}
-
-.text p {
-	margin: 2em auto 0 auto;
-	color: #6d7b93;
-	font-size: 18px;
-	font-weight: 700;
 }
 
 .emojis {
@@ -130,12 +134,10 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
 	position: absolute;
 	z-index: 2;
-	top: 50em;
-	left: 8em;
-	margin: 0 auto;
+	top: 48em;
+	left: 7%;
 	max-width: 1200px;
 }
 
@@ -217,14 +219,18 @@ header {
 }
 
 .vaccines-reason-container {
-	max-width: 1200px;
+	max-width: 1600px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
 	padding: 0 2em;
 	margin: 2em auto;
 }
+
+.reason-text {
+	width: 45%;
+}
+
+/* cards */
 
 .reason-cards {
 	display: flex;
@@ -233,15 +239,60 @@ header {
 	align-items: baseline;
 }
 
+.reason-card {
+	padding: 40px;
+}
+
 .reason-cards .reason-card img {
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
+	padding: 5px;
+	margin-bottom: 1em;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background: #fff;
+}
+
+.reason-card h3 {
+	color: #1f3e72;
+	font-weight: 700;
+}
+
+.reason-card p {
+	color: #6d7b93;
 }
 
 /* preparation section */
+
+.preparations {
+	width: 100%;
+}
+
+.preparations-container {
+	max-width: 1600px;
+	margin: 4em auto;
+	padding: 4em 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* accordion */
+
+.accordion {
+	padding: 1em;
+}
 
 .accordion-item button img {
 	width: 25px;
 	height: 25px;
 	margin-right: 5px;
+}
+
+.accordion-button {
+	color: #3656d4;
+	font-weight: 700;
+}
+
+.accordion-body {
+	color: #6d7b93;
 }
