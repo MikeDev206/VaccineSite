@@ -243,6 +243,10 @@ header {
 	padding: 40px;
 }
 
+.reason-card:hover {
+	transform: scale(1.2);
+}
+
 .reason-cards .reason-card img {
 	width: 35px;
 	height: 35px;
@@ -295,4 +299,76 @@ header {
 
 .accordion-body {
 	color: #6d7b93;
+}
+
+/* emergency section */
+
+.emergency {
+	width: 100%;
+}
+
+.emergency-container {
+	display: flex;
+	justify-content: baseline;
+}
+
+.emergency-cards {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1em;
+	padding-top: 2em;
+}
+
+.emergency-card {
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.emergency-card:hover {
+	transform: scale(1.2);
+	box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.emergency-card-header {
+	display: flex;
+	align-items: unset;
+}
+
+.emergency-card-header img {
+	width: 45px;
+	height: 45px;
+	margin-right: 10px;
+	border: none;
+	background-color: #f1f5ff;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.emergency-card-title h5 {
+	color: #1f3e72;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.emergency-card-title p {
+	color: #6d7b93;
+	font-size: 12px;
+}
+
+.emergency-card-footer {
+	border: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+	background-color: #f1f5ff;
+	color: #3656d4;
+	font-size: 12px;
+	font-weight: 900;
+	cursor: pointer;
+}
+
+.emergency-card-footer:hover {
+	background-color: #3656d4;
+	color: #fff;
 }
