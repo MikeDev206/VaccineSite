@@ -136,7 +136,7 @@ header {
 	top: 50em;
 	left: 8em;
 	margin: 0 auto;
-	
+	max-width: 1200px;
 }
 
 .scheduler img {
@@ -147,7 +147,13 @@ header {
 
 .scheduler-title {
 	display: flex;
-	align-items: center;
+	align-items: baseline;
+}
+
+.scheduler-title h3 {
+	font-size: 1.6em;
+	font-weight: 700;
+	color: #1f3e72;
 }
 
 .scheduler-body {
@@ -165,4 +171,28 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+}
+
+.scheduler-item label {
+	color: #6d7b93;
+	font-size: 20px;
+}
+
+.scheduler-item input:not(.scheduler-submit),
+.scheduler-item select,
+.scheduler-item option {
+	outline: none;
+	padding: 10px;
+	background-color: #fff;
+	color: #1f3e72;
+	font-weight: 900;
+}
+
+.scheduler-submit {
+	background-color: #3656d4;
+	color: #fff;
+	font-weight: 700;
+	padding: 10px 25px;
+	border: 1px solid transparent;
+	border-radius: 10px;
 }
