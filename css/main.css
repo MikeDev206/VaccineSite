@@ -81,6 +81,8 @@ header {
 	align-items: center;
 	margin: 0 auto;
 	width: 40%;
+	position: relative;
+	z-index: 1;
 }
 
 .section-text .text {
@@ -115,4 +117,52 @@ header {
 .emojis img {
 	height: 20px;
 	width: 20px;
+}
+
+.enfermera-image {
+	position: relative;
+	z-index: 1;
+}
+
+/* scheduler */
+
+.scheduler {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	position: absolute;
+	z-index: 2;
+	top: 50em;
+	left: 8em;
+	margin: 0 auto;
+	
+}
+
+.scheduler img {
+	width: 20px;
+	height: 20px;
+	margin: 0 10px 0 0;
+}
+
+.scheduler-title {
+	display: flex;
+	align-items: center;
+}
+
+.scheduler-body {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	background-color: #fff;
+	padding: 2em;
+	width: 80%;
+}
+
+.scheduler-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
