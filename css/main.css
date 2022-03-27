@@ -308,15 +308,15 @@ header {
 }
 
 .emergency-container {
-	display: flex;
-	justify-content: baseline;
+	max-width: 1600px;
+	margin: 10px auto;
+	padding: 10px 0;
 }
 
 .emergency-cards {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 1em;
-	padding-top: 2em;
 }
 
 .emergency-card {
@@ -372,3 +372,5 @@ header {
 	background-color: #3656d4;
 	color: #fff;
 }
+
+/* footer section */
