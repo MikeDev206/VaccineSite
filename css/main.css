@@ -316,6 +316,16 @@ header {
 	align-items: baseline;
 }
 
+.logos-container img .normal {
+	padding: 2em;
+	width: 100%;
+	height: auto;
+}
+
+.logos-container .mobile {
+	display: none;
+}
+
 /* vaccines reason section */
 
 .vaccines-reason-section {
@@ -538,7 +548,41 @@ header {
 
 /* MOBILE */
 
-@media only screen and (min-width: 375px) and (max-width: 640px) {
+@media only screen and (min-width: 280px) and (max-width: 640px) {
+	/* general */
+
+	.section-text {
+		margin: 1em auto;
+		padding: 0 10px;
+		width: 100%;
+	}
+
+	.text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.text h1 {
+		font-size: 40px;
+	}
+
+	.text h2 {
+		font-size: 30px;
+	}
+
+	.text p {
+		font-size: 16px;
+		font-weight: 500;
+		padding: 0 auto;
+	}
+
+	.enfermera-image img {
+		display: none;
+	}
+
 	/* hamburger-state */
 
 	.navigation-bar .hamburger-toggler,
@@ -551,7 +595,7 @@ header {
 		display: none;
 		transition: all 1s ease;
 	}
-	
+
 	.navigation-bar ul li a {
 		width: 100%;
 		padding: 10px 0;
@@ -575,9 +619,86 @@ header {
 		position: relative;
 	}
 
+	/* hero */
 
-	.enfermera-image img {
+	.hero-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.section-text {
+		position: unset;
+		z-index: auto;
+	}
+
+	.emojis {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.emojis img,
+	.emojis p {
+		margin: 1em auto;
+	}
+
+	.scheduler {
+		position: unset;
+		z-index: auto;
+	}
+
+	.scheduler-title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.scheduler-title h3 {
+		font-size: 24px;
+		margin: 10px auto;
+	}
+
+	.scheduler-title img {
+		margin: 0.9em auto;
+	}
+
+	.scheduler-body {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.scheduler-item {
+		justify-content: center;
+		align-items: center;
+		align-items: center;
+	}
+
+	.scheduler-item label {
+		text-align: center;
+	}
+
+	.scheduler-item img {
+		margin: 0;
+	}
+
+	/* logos section */
+
+	.logos-container {
+		margin: 0;
+	}
+
+	.logos-container .normal {
 		display: none;
+	}
+
+	.logos-container .mobile {
+		display: block;
+		padding: 2em;
+		width: 100%;
+		height: auto;
 	}
 }
 
@@ -596,7 +717,7 @@ header {
 		display: none;
 		transition: all 1s ease;
 	}
-	
+
 	.navigation-bar ul li a {
 		width: 100%;
 		padding: 10px 0;
@@ -620,7 +741,6 @@ header {
 		position: relative;
 	}
 
-
 	.enfermera-image img {
 		display: none;
 	}
@@ -629,7 +749,6 @@ header {
 /* LANDSCAPE TABLET */
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-	
 	.enfermera-image img {
 		width: 90%;
 	}
