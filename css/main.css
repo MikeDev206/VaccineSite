@@ -643,6 +643,8 @@ header {
 		margin: 1em auto;
 	}
 
+	/* scheduler */
+
 	.scheduler {
 		position: unset;
 		z-index: auto;
@@ -672,7 +674,6 @@ header {
 
 	.scheduler-item {
 		justify-content: center;
-		align-items: center;
 		align-items: center;
 	}
 
@@ -767,13 +768,96 @@ header {
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-		margin-bottom: 1em;
+		margin: 1em auto;
 	}
 }
 
 /* TABLET */
 
 @media only screen and (min-width: 641px) and (max-width: 768px) {
+	/* general styles */
+
+	.section-text {
+		padding: 0;
+		text-align: center;
+		width: 70%;
+	}
+
+	.text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.text h1 {
+		font-size: 40px;
+	}
+
+	.text h2 {
+		font-size: 35px;
+	}
+
+	.text p {
+		font-size: 18px;
+		font-weight: 500;
+		padding: 0 auto !important;
+	}
+
+	.enfermera-image img {
+		display: none;
+	}
+
+	/* hero-section */
+
+	.emojis {
+		margin-bottom: 1em;
+	}
+
+	.scheduler {
+		position: unset;
+		z-index: auto;
+	}
+
+	.scheduler-title {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: baseline;
+		margin: 1em auto 5px auto;
+	}
+
+	.scheduler-title h3 {
+		font-size: 24px;
+		margin: 10px auto;
+	}
+
+	.scheduler-title img {
+		margin: auto 0.5em;
+	}
+
+	.scheduler-body {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.scheduler-item {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.scheduler-item label {
+		text-align: center;
+	}
+
+	.scheduler-item img {
+		margin: 0;
+	}
+
 	/* hamburger-state */
 
 	.navigation-bar .hamburger-toggler,
@@ -810,8 +894,90 @@ header {
 		position: relative;
 	}
 
-	.enfermera-image img {
+	/* logos-section */
+
+	.logos-container {
+		margin: 0;
+	}
+
+	.logos-container .normal {
 		display: none;
+	}
+
+	.logos-container .mobile {
+		display: block;
+		padding: 1em;
+		width: 100%;
+		height: auto;
+	}
+
+	/* preparation-section */
+
+	.preparation-text {
+		margin: 10px auto;
+		width: 70%;
+	}
+
+	/* reason-section */
+
+	.reason-text {
+		width: 70%;
+		margin: 10px auto;
+	}
+
+	.reason-card {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: justify;
+	}
+
+	/* footer-section */
+
+	.footer-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 2em auto;
+		padding: 0;
+	}
+
+	.vaccination-goal {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 70%;
+		margin: 1em auto;
+		padding: 1em;
+	}
+
+	.vaccination-goal h5 {
+		font-size: 25px;
+	}
+
+	.vaccination-goal h5,
+	.vaccination-goal p {
+		width: 100%;
+	}
+
+	.footer-navigation .navigation-columns {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.rights-terms-privacy {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: 1em auto;
 	}
 }
 
