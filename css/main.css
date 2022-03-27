@@ -374,3 +374,63 @@ header {
 }
 
 /* footer section */
+.footer {
+	width: 100%;
+	background-color: #eef3ff;
+}
+
+.footer-container {
+	max-width: 1600px;
+	display: flex;
+	justify-content: space-around;
+	margin: 2em auto;
+	padding: 3em 4em 2em 4em;
+}
+
+.vaccination-goal {
+	margin-bottom: 3em;
+}
+
+.vaccination-goal h5,
+.vaccination-goal p {
+	width: 35%;
+}
+
+.vaccination-goal h5 {
+	color: #3656d4;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.vaccination-goal p {
+	color: #6d7b93;
+	font-size: 17px;
+}
+
+.navigation-columns h5 {
+	color: #1f3e72;
+	font-size: 28px;
+	font-weight: 900;
+}
+
+.navigation-columns li {
+	list-style: none;
+}
+
+.navigation-columns li a {
+	padding: 2px 0;
+	color: #6d7b93;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.copyright {
+	color: #6d7b93;
+	font-weight: 700;
+}
+
+.terms-privacy a {
+	color: #6d7b93;
+	font-weight: 700;
+	text-decoration: none;
+}
