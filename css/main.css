@@ -708,11 +708,11 @@ header {
 	}
 
 	.reason-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
 	}
 
 	/* emergency-section */
@@ -723,7 +723,52 @@ header {
 		justify-content: center;
 		align-items: center;
 	}
-	
+
+	/* footer-section */
+
+	.footer-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 2em auto;
+		padding: 0;
+	}
+
+	.vaccination-goal {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: 1em auto;
+		padding: 1em;
+	}
+
+	.vaccination-goal h5 {
+		font-size: 25px;
+	}
+
+	.vaccination-goal h5,
+	.vaccination-goal p {
+		width: 100%;
+	}
+
+	.footer-navigation .navigation-columns {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.rights-terms-privacy {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin-bottom: 1em;
+	}
 }
 
 /* TABLET */
