@@ -722,6 +722,10 @@ header {
 
 	/* emergency-section */
 
+	.emergency-cards {
+		justify-content: center;
+	}
+
 	.emergency-card {
 		flex-direction: row;
 		justify-content: space-around;
@@ -729,6 +733,7 @@ header {
 	}
 
 	.emergency-card-footer {
+		min-width: 105px;
 		padding: 15px 10px;
 		margin-left: 15px;
 	}
@@ -942,6 +947,10 @@ header {
 	}
 
 	/* emergency-section */
+
+	.emergency-cards {
+		justify-content: center;
+	}
 
 	.emergency-card {
 		flex-direction: row;
