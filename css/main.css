@@ -61,7 +61,6 @@ body {
 	padding-bottom: 1em;
 }
 
-
 /* header */
 
 header {
@@ -501,6 +500,7 @@ header {
 
 .footer-container {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 	margin: 2em auto;
 	padding: 3em 4em 2em 4em;
@@ -722,11 +722,15 @@ header {
 
 	/* emergency-section */
 
-	.emergency-cards {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+	.emergency-card {
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: unset;
+	}
+
+	.emergency-card-footer {
+		padding: 15px 10px;
+		margin-left: 15px;
 	}
 
 	/* footer-section */
@@ -937,6 +941,20 @@ header {
 		text-align: justify;
 	}
 
+	/* emergency-section */
+
+	.emergency-card {
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: unset;
+		width: 100%;
+	}
+
+	.emergency-card-footer {
+		padding: 15px 10px;
+		margin-left: 15px;
+	}
+
 	/* footer-section */
 
 	.footer-container {
@@ -1095,6 +1113,7 @@ header {
 	.emergency-container > .enfermera-image {
 		width: 48%;
 	}
+
 	/* footer-section */
 
 	.footer-container {
@@ -1104,6 +1123,13 @@ header {
 		align-items: center;
 		margin: 2em auto;
 		padding: 0;
+	}
+
+	.footer-links {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.vaccination-goal {
@@ -1123,6 +1149,10 @@ header {
 
 	.vaccination-goal h5,
 	.vaccination-goal p {
+		width: 100%;
+	}
+
+	.footer-navigation {
 		width: 100%;
 	}
 
