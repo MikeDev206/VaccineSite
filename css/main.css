@@ -30,6 +30,10 @@ body {
 	margin: 1em auto;
 }
 
+.logos-container {
+	background: white;
+}
+
 .section-text {
 	display: flex;
 	flex-direction: column;
